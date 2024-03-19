@@ -1,0 +1,46 @@
+#reklam{
+    .container{
+        .reklam-wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 24px;
+            padding-top: 86px;
+            padding-bottom: 86px;
+            height: 383px;
+            height: 770px;
+            padding: 88px 112px;
+            gap: 35px;
+
+            div{
+                width: 521px;
+                h4{
+                    font-weight: 500;
+                    font-size: 32px;
+                    margin-bottom: 40px;
+                    color: #8447E9;
+                }
+
+                p{
+                    font-size: 20px;
+                    font-weight: 400;
+                    margin-bottom: 30px;
+                }
+
+                ul{
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 474px;
+                    justify-content: space-between;
+
+                    li{
+                        margin-bottom: 20px;
+                        font-weight: 500;
+                        font-size: 16px;
+                        color: #8447E9;
+                    }
+                }
+            }
+        }
+    }
+}
